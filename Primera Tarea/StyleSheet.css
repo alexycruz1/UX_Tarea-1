@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body{
+    background: #f5f6fa;
+}
+
+#Principal{
+    border-style: solid;
+    border-width: 1%;
+}
+
+.CVSection-PersonalData{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    position: relative;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1%; 
+}
+
+#PersonalDataTitle{
+    width: fit-content;
+    margin-left: 25%;
+}
+
+.PersonalData{
+    width: fit-content;
+    margin-left: 2%;
+    margin-top: 2%;
+    position: relative;
+    float: left;
+}
+
+.PortraitPhoto{
+    width: 20%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    float: left;
+}
+
+.FitImage {
+    max-height:100%; 
+    max-width:100%;
+}
+
+.CVSection-SectionsContainer{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    position: relative;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1%; 
+}
+
+.CVSection-ExperienceAndHobbies{
+    width: 47%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    float: left;
+    position: relative;
+    border-right-style: solid;
+    border-right-width: 1%;
+}
+
+.CVSection-Habilities{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-style: solid;
+    border-width: 1%; 
+    position: relative;
+}
+
+.CVSection-Reference{
+    text-align: center;
+    width: 30%;
+    margin-left: 1.16%;
+    margin-right: 1.16%;
+    margin-bottom: 1%;
+    float: left;
+    position: relative;
+    border-right-style: solid;
+    border-right-width: 1%; 
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), 
+         local('Roboto-Regular'), 
+         url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+         format('woff');
+  }
+  
+body {
+    font-family: 'Roboto';
+    /*font-size: 18px;*/
+  }
+
+h1 {
+    text-align: center;
+    font-style : italic;
+    font-weight: bold;
+}
+
+h2, h3, h4 {
+    font-weight: normal;
+}
